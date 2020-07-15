@@ -1,0 +1,196 @@
+/*GERAL*/
+body{
+	font-family: "Libre Franklin", Helvetica, Arial, sans-sherif;
+	color: #4d4d4d;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1, h2, h3, h4{
+	font-family: "Exo 2", Helvetica, Arial, sans-sherif;
+	font-weight: 700;
+	
+}
+/*NAVEGAÇÃO*/
+
+header {
+	
+	display: flex;
+	text-decoration: none;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	
+}
+
+header a {
+	
+	text-decoration: none;
+	text-align: center;
+	color: #00008B;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: Pacifico, serif;
+	
+}
+
+header ul{
+	
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+header ul li{
+	
+	text-align: center;
+	width: 70%;
+	
+}
+
+/*HEADER*/
+
+header{
+	
+	background-color:#4169E1;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	text-align: center;
+	padding: 20px 20px;
+	color: white;	
+}
+
+header p{
+	margin-bottom: 2em;
+	max-width: 1000px;
+	color: #FFFFFF;
+}
+
+/*SOBRE*/
+
+#sobre{
+	
+	background-color:#4169E1;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	text-align: center;
+	padding: 20px 20px;
+	border-top: 1px solid #2F4F4F;
+	color: white;
+}
+
+#sobre p{
+	
+	margin-bottom: 2em;
+	max-width: 1000px;
+	color: #FFFFFF;
+}
+
+/*SERVIÇOS*/
+
+#servicos{
+	padding-bottom: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #DCDCDC;
+	
+}
+
+#servicos div{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	
+}
+
+/*CONTATO*/
+
+#contato {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+footer {
+	
+	text-align: right;
+	
+}
+
+
+@media screen and (min-width: 768px){
+	  
+	  /*NAVEGAÇÃO*/
+	  header{
+	  flex-direction: row;
+	  justify-content: space-ground;
+	  }
+	  
+	  header ul{
+	  
+	  flex-direction: row;
+	  width: 70%;
+	  
+	  }
+	  
+	  /*CABEÇALHO*/
+	  header{
+	  
+	  height: 60vh;
+	  height: 200px;
+	  justify-content: center;
+	  
+	  }
+	  
+	  /*SOBRE*/
+	  
+	 #sobre{
+	 
+	 height: 250px;
+	 height: 30vh;
+	 min-height: 250px;
+	 justify-content: center;
+	 
+	 
+	 }
+	 
+	 /*SERVIÇOS*/
+	 
+	 #servicos{
+	 
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 align-items: start;
+	 width: 100%;
+	 margin: 0 auto;
+	 
+	 }
+	 
+	 #servicos h2{
+	 
+	 text-align: center;
+	 width: 100%;
+	 
+	 }
+	 
+	 #servicos div{
+	 
+	 flex-grow: 1;
+	 flex-basis: 150px;
+	 padding: 0 10px;
+	 
+	 }
+	  
+}
